@@ -50,7 +50,7 @@ h2{
 main{
     min-height: 100vh;
 }
-#hr01{
+.hr01{
     height: 15vh;
     border: none;
 }
@@ -71,7 +71,7 @@ main{
     right: 15px;
     border-radius: 12px;
 }
-.title_dodia{
+.title_curi{
     color: white;
     font-size: 64px;
     text-align: center;
@@ -82,16 +82,16 @@ main{
 .img_span{
     padding: 20px;
 }
-.img_dodia{
+.img_curi{
     width: 23vw;
     height: 42vh;
     border-radius: 20px;
 }
-.subtitle_dodia{
+.subtitle_curi{
     color: white;
     font-size: 40px;
 }
-.content_dodia{
+.content_curi{
     color: white;
     font-size: 30px;
     padding: 10px;
@@ -105,4 +105,24 @@ main{
 }
 #now_more:hover{
     scale: 1.009;
+}
+.petricor01{
+    width: 96vw;
+    margin: auto;
+    border: solid 3px white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+#title_petricor{
+    font-size: 109px;
+}
+#subtitle_petricor{
+    font-size: 64px;
+}
+.span_curi01{
+    display: flex;
+}
+#content_petricor{
+    font-size: 42px;
 }
