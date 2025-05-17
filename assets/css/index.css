@@ -40,7 +40,7 @@ h2{
 .home_a_global:hover{
     transition-duration: 1s;
     scale: 1.09;
-    transition-delay: 700ms;
+    transition-delay: 150ms;
     background-color: white;
     color: black;
 }
