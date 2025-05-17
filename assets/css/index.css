@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #4B0082;
+}
+header{
+    background-color: #ffd966;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 30vh;
+}
+h1{
+    margin: 0;
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    margin: 10px;
+    font-size: 32px;
+}
+#home01{
+    gap: 10px;
+    margin: auto;
+    gap: 300px;
+    display: flex;
+}
+.home_a_global{
+    display: block;
+    text-decoration: none;
+    font-size: 38px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 19px;
+    padding: 0px 50px;
+    transition-duration: 1s;
+}
+.home_a_global:hover{
+    transition-duration: 1s;
+    scale: 1.09;
+    transition-delay: 700ms;
+    background-color: white;
+    color: black;
+}
+#home_a_01{
+    padding: 0px 130px;
+}
+main{
+    min-height: 100vh;
+}
+#hr01{
+    height: 15vh;
+    border: none;
+}
+.sombra_dodia01{
+    height: 70vh;
+    width: 95vw;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    border-radius: 12px;
+}
+.dodia01{
+    background-color: #6A0DAD;
+    height: 70vh;
+    width: 95vw;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 12px;
+}
+.title_dodia{
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+.span_dodia01{
+    display: flex;
+}
+.img_span{
+    padding: 20px;
+}
+.img_dodia{
+    width: 23vw;
+    height: 42vh;
+    border-radius: 20px;
+}
+.subtitle_dodia{
+    color: white;
+    font-size: 40px;
+}
+.content_dodia{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+#now_more{
+    background-color: #4B0082;
+    color: white;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#now_more:hover{
+    scale: 1.009;
+}
