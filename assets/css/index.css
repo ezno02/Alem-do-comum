@@ -62,7 +62,7 @@ main{
     margin: auto;
     border-radius: 12px;
 }
-.dodia01{
+#dodia01{
     background-color: #6A0DAD;
     height: 70vh;
     width: 95vw;
@@ -70,6 +70,8 @@ main{
     bottom: 15px;
     right: 15px;
     border-radius: 12px;
+    transition-delay: 400ms;
+    transition-duration: 1.2s;
 }
 .title_curi{
     color: white;
