@@ -109,9 +109,10 @@ main{
     scale: 1.009;
 }
 .petricor01{
+    background-color: #ffd966;
     width: 96vw;
     margin: auto;
-    border: solid 3px white;
+    border: solid 4px #1a1a1a;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
