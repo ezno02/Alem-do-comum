@@ -20,6 +20,10 @@ body{
     flex-direction: column;
     text-align: center;
 }
+#pag1{
+    transition-delay: 100ms;
+    transition-duration: 700ms;
+}
 .span-voltar{
     text-align: start;
     padding: 5px 15px;
@@ -43,8 +47,12 @@ body{
     height: 45vh;
     position: relative;
     border-radius: 5px;
+    transition-delay: 100ms;
+    transition-duration: 700ms;
 }
 .quadros{
+    transition-delay: 100ms;
+    transition-duration: 700ms;
     background-color: #6a0dad;
     width: 60vw;
     height: 45vh;
@@ -52,6 +60,9 @@ body{
     bottom: 15px;
     right: 15px;
     border-radius: 5px;
+}
+#hrPag01{
+    border: solid 4px black;
 }
 #hr-pag3{
     border: none;
